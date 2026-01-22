@@ -17,6 +17,11 @@ const Objectives: React.FC = () => {
       description:
         'We help medical device companies manage compliance more easily and confidently by giving teams clear insights, highlighting issues before they become problems, and supporting faster delivery of life-saving technologies.',
     },
+    {
+      title: 'Our Vision',
+      description:
+        'We help medical device companies manage compliance more easily and confidently by giving teams clear insights, highlighting issues before they become problems, and supporting faster delivery of life-saving technologies.',
+    },
   ];
 
   interface Objective2 {

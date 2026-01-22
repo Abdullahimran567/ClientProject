@@ -103,7 +103,7 @@ function CaseStudies() {
                            bg-[linear-gradient(213deg,#dd0dce_-39.81%,#540dce_85.21%)]
                            text-white font-medium'
               >
-                <Link href={``}>View Case Study</Link>
+                <Link href={``}>Discover More</Link>
               </motion.button>
             </motion.div>
 
@@ -139,7 +139,7 @@ const data: {
   link: string;
 }[] = [
   {
-    image: '/Images/krank-banner.png',
+    image: '/Images/Suri2.jpg',
     title: 'Suricat',
     heading: 'What Suricat does',
     description:

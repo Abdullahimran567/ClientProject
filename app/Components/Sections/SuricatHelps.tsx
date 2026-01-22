@@ -37,7 +37,7 @@ const data: {
     heading: '',
     description:
       'Suricat includes the evidence behind every insight so your team can easily understand what it found and why.',
-    image: '/Images/development.webp',
+    image: '/Images/ai.webp',
     listheading: 'Services Include:',
     list: [
       'Finding conflicting information in documents',

@@ -132,7 +132,7 @@ function CostComparison({ arr }: ServiceProps) {
                     transition={{ duration: 0.3, ease: 'easeOut' }}
                   >
                     <Image
-                      src='/rocket.png'
+                      src='/Images/rocket.png'
                       alt='rocket'
                       width={34}
                       height={34}

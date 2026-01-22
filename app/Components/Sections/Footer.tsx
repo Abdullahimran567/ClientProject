@@ -79,39 +79,29 @@ function Footer() {
             <NavBtn label='Services' />
             <NavBtn label='Our Work' />
             <NavBtn label='Blog' />
-            <NavBtn label='Contact Us' />
           </div>
 
           <div className='flex flex-col gap-3 [&_button]:w-full [&_button]:justify-start [&_button]:text-left [&_button]:whitespace-normal [&_button]:leading-relaxed [&_button]:px-0 [&_button]:py-0 [&_button]:bg-transparent [&_button]:hover:bg-transparent [&_button]:text-sm [&_button]:text-white/80'>
             <h2 className='text-2xl font-semibold bg-gradient-to-r from-fuchsia-400 via-purple-400 to-rose-400 bg-clip-text text-transparent drop-shadow-[0_3px_12px_rgba(121,40,202,0.35)]'>
-              Smart Technology Solutions
+              Company
             </h2>
-            <NavBtn label='Web Development' />
-            <NavBtn label='UI/UX Design' />
-            <NavBtn label='Ecommerce Web Development' />
-            <NavBtn label='Mobile App Development' />
-            <NavBtn label='Artificial Intelligence' />
-            <NavBtn label='Chatbot Development' />
-            <NavBtn label='Virtual Reality Development' />
-            <NavBtn label='Augmented Reality Development' />
+            <NavBtn label='About' />
+            <NavBtn label='Mission' />
+            <NavBtn label='Team' />
           </div>
 
           <div className='flex flex-col gap-3 [&_button]:w-full [&_button]:justify-start [&_button]:text-left [&_button]:whitespace-normal [&_button]:leading-relaxed [&_button]:px-0 [&_button]:py-0 [&_button]:bg-transparent [&_button]:hover:bg-transparent [&_button]:text-sm [&_button]:text-white/80'>
             <h2 className='text-2xl font-semibold bg-gradient-to-r from-fuchsia-400 via-purple-400 to-rose-400 bg-clip-text text-transparent drop-shadow-[0_3px_12px_rgba(121,40,202,0.35)]'>
-              Digital Growth & Marketing
+              Product
             </h2>
-            <NavBtn label='Digital Marketing' />
-            <NavBtn label='Search Engine Optimization' />
-            <NavBtn label='Ecommerce Web Development' />
-            <NavBtn label='Pay-Per-Click Advertising' />
-            <NavBtn label='Social Media Marketing' />
-            <NavBtn label='Influencer Marketing' />
-            <NavBtn label='Branding & Creative Design' />
+            <NavBtn label='How it works' />
+            <NavBtn label='Capabilities' />
+            <NavBtn label='Platform' />
           </div>
         </div>
 
         <div className='border-t border-white/20 pt-4 text-sm text-white/60 flex justify-center'>
-          © {new Date().getFullYear()} eForte. All rights reserved.
+          © {new Date().getFullYear()} Suricat. All rights reserved.
         </div>
       </div>
     </div>
