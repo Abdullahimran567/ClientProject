@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <!-- Dark background -->
+  <rect width="1600" height="900" fill="url(#bgGradient)" />
+
+  <!-- Soft glowing bubbles -->
+  <circle cx="200" cy="200" r="300" fill="url(#pinkGlow)" opacity="0.4" />
+  <circle cx="1400" cy="300" r="350" fill="url(#redGlow)" opacity="0.3" />
+  <circle cx="800" cy="800" r="250" fill="url(#pinkGlow)" opacity="0.25" />
+  <circle cx="300" cy="700" r="200" fill="url(#redGlow)" opacity="0.2" />
+
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="bgGradient" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#0d0f1a" />
+      <stop offset="100%" stop-color="#05060a" />
+    </radialGradient>
+
+    <!-- Pink glow -->
+    <radialGradient id="pinkGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff3d9a" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+
+    <!-- Red glow -->
+    <radialGradient id="redGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff4141" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+  </defs>
+</svg>
